@@ -13,7 +13,7 @@
 	<key>BundledFiles</key>
 	<array/>
 	<key>Creator</key>
-	<string>Platypus-5.3</string>
+	<string>Platypus-5.4.1</string>
 	<key>DeclareService</key>
 	<false/>
 	<key>Destination</key>
@@ -27,9 +27,9 @@
 	<key>ExecutablePath</key>
 	<string>/usr/local/share/platypus/ScriptExec</string>
 	<key>IconPath</key>
-	<string>/Users/vincentschwarz/kleingeld1.git/img2base64/MRBASE.icns</string>
+	<string>/Users/vincentschwarz/Library/Application Support/Platypus/PlatypusIcon-910.icns</string>
 	<key>Identifier</key>
-	<string>org.vincentschwarz.img2base64</string>
+	<string>org.kleingeld.img2base64</string>
 	<key>InterfaceType</key>
 	<string>Droplet</string>
 	<key>InterpreterArgs</key>
@@ -41,11 +41,11 @@
 	<key>NibPath</key>
 	<string>/usr/local/share/platypus/MainMenu.nib</string>
 	<key>OptimizeApplication</key>
-	<true/>
+	<false/>
 	<key>Overwrite</key>
 	<false/>
 	<key>PromptForFileOnLaunch</key>
-	<true/>
+	<false/>
 	<key>RemainRunning</key>
 	<false/>
 	<key>RunInBackground</key>
@@ -53,7 +53,9 @@
 	<key>ScriptArgs</key>
 	<array/>
 	<key>ScriptPath</key>
-	<string>/Users/vincentschwarz/kleingeld1.git/img2base64/img2base64.sh</string>
+	<string>/Users/vincentschwarz/dev/img2base64/img2base64.sh</string>
+	<key>SendNotifications</key>
+	<false/>
 	<key>StatusItemDisplayType</key>
 	<string>Text</string>
 	<key>StatusItemIcon</key>
@@ -248,9 +250,10 @@
 	<array/>
 	<key>UniformTypes</key>
 	<array>
-		<string>public.image</string>
+		<string>public.item</string>
+		<string>public.folder</string>
 	</array>
 	<key>Version</key>
-	<string>1.1</string>
+	<string>1.0</string>
 </dict>
 </plist>

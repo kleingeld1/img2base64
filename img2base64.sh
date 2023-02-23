@@ -8,7 +8,7 @@ do
 	FILENAME=$(basename $1)
 	if [ true ]
 	then
-		REF="![$FILENAME][img_$FILENAME]\n[img_$FILENAME]"
+		REF="![][$FILENAME _ref]\n\n[$FILENAME _ref]"
 	fi
 	printf "$REF: data:$TYPE;base64,$ENC" | pbcopy
 done
