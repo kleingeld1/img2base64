@@ -3,7 +3,7 @@
 for f in "$@"
 do
 	TYPE=$(file --mime-type -b $1)
-	ENC=$(base64 $1)
+	ENC=$(base64 -i $1)
 	REF=""
 	FILENAME=$(basename $1)
 	if [ true ]
